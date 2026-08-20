@@ -1,0 +1,17 @@
+di={'id':101, 'name':'Sanika', 'dept':'CS'}
+
+# di.clear()
+# print(di)
+# di2=di.copy()
+# print(di2)
+# print(di.get('name','Key not found.'))
+# print(di.get('age','Key not found.'))
+# print(di.items())
+# print(di.keys())
+# res=di.pop('dept')
+# print(res)
+# print(di)
+# di.popitem()
+# print(di)
+di.update({'age':21, 'address':'Satara'})
+print(di)

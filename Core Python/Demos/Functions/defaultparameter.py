@@ -1,0 +1,10 @@
+def emp(id,name=None,sal=20000,dept='IT'):
+    print('ID:',id)
+    print('NAME:',name)
+    print('SALARY:',sal)
+    print('DEPARTMENT:',dept)
+emp(101,'sanika',35000,'AI Engineer')
+print('###############')
+emp(102,'sumit',60000)
+print('###############')
+emp(103)

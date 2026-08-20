@@ -1,0 +1,31 @@
+str='firstBit Solutions'
+str1='firstbit solution'
+print(str.capitalize())
+print(str.count('i'))
+print(str.endswith('ions'))
+print(str.find('Bit'))
+print(str.find('bit'))
+print(str.index('ion'))
+print(str.isalnum())
+print(str.isalpha())
+print(str.isdigit())
+print(str.islower())
+print(str1.islower())
+print(str.isspace())
+s=' '
+print(s.isspace())
+print(str.isupper())
+st='FIRST'
+print(st.isupper())
+data=', '.join(['101', 'Sanika' ,'IT'])
+print(data)
+print(str.lower())
+print(str.upper())
+print(str.replace('Bit', 'bit'))
+print(data.split(', '))
+print(str.split())
+print(str.startswith('fir'))
+str2='   [Firstbit Solutions]   '
+print(str2.strip(' []'))
+print(str.swapcase())
+print(str.title())
