@@ -1,0 +1,230 @@
+MySQL Assignment -1 (DDL)
+
+1. Login to MySQL and view all databases already present. You should get following result:
+
+Query-
+show databases;
+Output-
++----------------------+
+| Database             |
++----------------------+
+| emp                  |
+| fbs                  |
+| information_schema   |
+| mehandidb            |
+| mysql                |
+| performance_schema   |
+| preschooldb          |
+| waterdb              |
+| watertankerservicedb |
++----------------------+
+
+2. Write an SQL statement to create a simple table countries including columns 
+country_id,country_name and region_id. After this display the structure of 
+table as below :
+
+Query-
+create table countries
+(country_id int, country_name varchar(20),region_id int);
+
+desc countries;
+
+Output-
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| country_id   | int         | YES  |     | NULL    |       |
+| country_name | varchar(20) | YES  |     | NULL    |       |
+| region_id    | int         | YES  |     | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+
+3. Write an SQL statement to create a table named jobs including columns job_id, job_title,
+ min_salary, max_salary and check whether the max_salary amount exceeding the upper 
+limit 25000. Also set job_id as primary key and entering null values for job_title 
+is not allowed.
+
+Query-
+create table jobs
+(job_id int primary key,
+job_title varchar(30) not null,
+min_salary int, 
+max_salary int check (max_salary <= 25000));
+
+desc jobs;
+
+show create table jobs;
+
+Output-
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| job_id     | int         | NO   | PRI | NULL    |       |
+| job_title  | varchar(30) | NO   |     | NULL    |       |
+| min_salary | int         | YES  |     | NULL    |       |
+| max_salary | int         | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+
++-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table | Create Table                                                                                                                                                                                                                                                                                                |
++-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| jobs  | CREATE TABLE `jobs` (
+  `job_id` int NOT NULL,
+  `job_title` varchar(30) NOT NULL,
+  `min_salary` int DEFAULT NULL,
+  `max_salary` int DEFAULT NULL,
+  PRIMARY KEY (`job_id`),
+  CONSTRAINT `jobs_chk_1` CHECK ((`max_salary` <= 25000))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci |
++-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+4. Write a SQL statement to create a table named job_histry including columns
+employee_id, start_date, end_date, job_id and department_id.
+
+
+Query-
+create table job_histry
+(employee_id int,
+start_date date,
+end_date date,
+job_id int,
+department_id int);
+
+desc job_histry;
+
+output-
++---------------+------+------+-----+---------+-------+
+| Field         | Type | Null | Key | Default | Extra |
++---------------+------+------+-----+---------+-------+
+| employee_id   | int  | YES  |     | NULL    |       |
+| start_date    | date | YES  |     | NULL    |       |
+| end_date      | date | YES  |     | NULL    |       |
+| job_id        | int  | YES  |     | NULL    |       |
+| department_id | int  | YES  |     | NULL    |       |
++---------------+------+------+-----+---------+-------+
+
+5. Write an SQL statement to alter a table named countries to make sure that no
+duplicate data against column country_id will be allowed at the time of
+insertion.
+
+Query-
+alter table countries
+modify column country_id int unique;
+
+desc countries;
+
+Output-
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| country_id   | int         | YES  | UNI | NULL    |       |
+| country_name | varchar(20) | YES  |     | NULL    |       |
+| region_id    | int         | YES  |     | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+
+6. Write an SQL statement to create a table named jobs including columns job_id, 
+job_title, min_salary and max_salary, and make sure that, the default value for 
+job_title is blank and min_salary is 8000 and max_salary is NULL will be entered 
+automatically at the time of insertion if no value assigned for the specified columns.
+
+Query-
+create table jobs
+(job_id  int,
+job_title varchar(30) default '',
+min_salary int default 8000,
+max_salary int default null);
+
+desc jobs;
+
+Output-
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| job_id     | int         | YES  |     | NULL    |       |
+| job_title  | varchar(30) | YES  |     |         |       |
+| min_salary | int         | YES  |     | 8000    |       |
+| max_salary | int         | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+
+7. Create a Department table with following structure
++-----------------+--------------+------+-----+---------+-------+
+| Field           | Type         | Null | Key | Default | Extra |
++-----------------+--------------+------+-----+---------+-------+
+| DEPARTMENT_ID   | decimal(4,0) | NO   | PRI | 0       |       |
+| DEPARTMENT_NAME | varchar(30)  | NO   |     | NULL    |       |
+| MANAGER_ID      | decimal(6,0) | NO   | PRI | 0       |       |
+| LOCATION_ID     | decimal(4,0) | YES  |     | NULL    |       |
++-----------------+--------------+------+-----+---------+-------+
+
+Query-
+create table dept
+(DEPARTMENT_ID decimal(4,0) primary key default 0,
+DEPARTMENT_NAME varchar(30) not null,
+MANAGER_ID decimal(6,0) primary key default 0,
+LOCATION_ID decimal(4,0));
+
+Output-
+ERROR 1068 (42000): Multiple primary key defined
+
+CREATE TABLE dept
+(
+DEPARTMENT_ID DECIMAL(4,0) DEFAULT 0,
+DEPARTMENT_NAME VARCHAR(30) NOT NULL,
+MANAGER_ID DECIMAL(6,0) DEFAULT 0,
+LOCATION_ID DECIMAL(4,0),
+PRIMARY KEY (DEPARTMENT_ID, MANAGER_ID)
+);
+
++-----------------+--------------+------+-----+---------+-------+
+| Field           | Type         | Null | Key | Default | Extra |
++-----------------+--------------+------+-----+---------+-------+
+| DEPARTMENT_ID   | decimal(4,0) | NO   | PRI | 0       |       |
+| DEPARTMENT_NAME | varchar(30)  | NO   |     | NULL    |       |
+| MANAGER_ID      | decimal(6,0) | NO   | PRI | 0       |       |
+| LOCATION_ID     | decimal(4,0) | YES  |     | NULL    |       |
++-----------------+--------------+------+-----+---------+-------+
+
+8. Write an SQL statement to create a table employees including columns
+employee_id, first_name, last_name, email, phone_number hire_date, job_id,
+salary, commission, manager_id and department_id and make sure that, the
+employee_id column does not contain any duplicate value at the time of
+insertion and the foreign key columns combined by department_id and
+manager_id columns contain only those unique combination values, which
+combinations are exists in the departments table.
+
+Query-
+create table employees
+(employee_id int primary key,
+first_name varchar(20),
+last_name varchar(20),
+email varchar(30),
+phone_number int,
+hire_date date,
+job_id int,
+salary decimal(7,2),
+commission decimal(7,2),
+MANAGER_ID decimal(6,0),
+DEPARTMENT_ID decimal(4,0),
+foreign key(DEPARTMENT_ID,MANAGER_ID)
+references dept(DEPARTMENT_ID,MANAGER_ID)
+); 
+
+desc employees;
+
+Output-
++---------------+--------------+------+-----+---------+-------+
+| Field         | Type         | Null | Key | Default | Extra |
++---------------+--------------+------+-----+---------+-------+
+| employee_id   | int          | NO   | PRI | NULL    |       |
+| first_name    | varchar(20)  | YES  |     | NULL    |       |
+| last_name     | varchar(20)  | YES  |     | NULL    |       |
+| email         | varchar(30)  | YES  |     | NULL    |       |
+| phone_number  | int          | YES  |     | NULL    |       |
+| hire_date     | date         | YES  |     | NULL    |       |
+| job_id        | int          | YES  |     | NULL    |       |
+| salary        | decimal(7,2) | YES  |     | NULL    |       |
+| commission    | decimal(7,2) | YES  |     | NULL    |       |
+| MANAGER_ID    | decimal(6,0) | YES  |     | NULL    |       |
+| DEPARTMENT_ID | decimal(4,0) | YES  | MUL | NULL    |       |
++---------------+--------------+------+-----+---------+-------+
+
