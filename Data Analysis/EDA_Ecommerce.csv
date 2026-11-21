@@ -1,0 +1,156 @@
+Order_ID,Customer_ID,Order_Date,Age,City,Category,Product_Name,Brand,Quantity,Unit_Price,Discount,Payment_Mode,Customer_Rating,Sales,Profit
+ORD1082,CUST1004,3/23/2025,19,Nashik,Electronics,Wireless Headphones,Samsung,5,10508.22,0.15,Net Banking,2.5,44659.94,9665.61
+ORD1143,CUST1058,5/23/2025,54,Kolhapur,Beauty,Shampoo,Lakme,5,8880.72,0.02,UPI,4,43515.53,4562.3
+ORD1032,CUST1058,2/1/2025,54,Navi Mumbai,Grocery,Dry Fruits,Fortune,2,13197.67,0.26,Cash on Delivery,4.2,19532.55,1334.02
+ORD1030,CUST1033,1/30/2025,21,Nagpur,Grocery,Green Tea,Britannia,5,4266.03,0.25,Debit Card,2.9,15997.61,2697
+ORD1119,CUST1041,4/29/2025,49,Mumbai,Electronics,Bluetooth Speaker,HP,4,2170.13,0.21,,4.4,6857.61,786.72
+ORD1061,CUST1014,3/2/2025,56,Nashik,Furniture,Premium Product,Generic,1,13674.97,0.13,Credit Card,2.3,11897.22,2685.51
+ORD1094,CUST1010,4/4/2025,49,,Clothing,Hoodie,Allen Solly,2,8109.47,0.06,Credit Card,3,15245.8,3082.79
+ORD1148,CUST1008,5/28/2025,36,Kolhapur,Electronics,Wireless Headphones,Noise,5,9191.82,0.04,Net Banking,3.3,44120.74,4086.5
+ORD1102,CUST1023,4/12/2025,23,Kolhapur,Beauty,Shampoo,Maybelline,3,10379.21,0.27,Credit Card,3,30307.29,5684.95
+ORD1069,CUST1028,3/10/2025,41,Nagpur,Grocery,Cooking Oil,Tata,4,1180.29,0.29,,4.2,3352.02,623.57
+ORD1043,CUST1015,2/12/2025,45,Kolhapur,Grocery,Basmati Rice,Britannia,2,1508.44,0.19,UPI,2.2,2443.67,321.81
+ORD1139,CUST1059,5/19/2025,19,Mumbai,Beauty,Lipstick,Maybelline,4,7297.82,0.01,UPI,2.1,28899.37,6898.95
+ORD1079,CUST1036,3/20/2025,54,Kolhapur,Grocery,Biscuits,Britannia,2,6124.45,0.31,,2.1,8451.74,1679.37
+ORD1076,CUST1035,3/17/2025,95,Nagpur,Furniture,Premium Product,Generic,5,8151.5,0.24,Debit Card,2.7,30975.7,6664.84
+ORD1016,CUST1036,1/16/2025,55,Nagpur,Grocery,Dry Fruits,Fortune,3,2181.01,0.31,Cash on Delivery,3.8,4514.69,277.96
+ORD1020,CUST1022,1/20/2025,44,Mumbai,Grocery,Dry Fruits,Fortune,3,8108.32,0.34,Credit Card,3.3,16054.47,3997.27
+ORD1031,CUST1012,1/31/2025,47,Satara,Furniture,Premium Product,Generic,2,3266.97,0.07,UPI,3.1,6076.56,1008.81
+ORD1091,CUST1026,4/1/2025,43,Nashik,Electronics,Laptop,boAt,1,5344.76,0.12,Debit Card,3.4,4703.39,743.12
+ORD1118,CUST1045,4/28/2025,37,Navi Mumbai,Clothing,Kurti,Allen Solly,2,2386.54,0,Credit Card,4.8,4773.08,259.77
+ORD1138,CUST1033,5/18/2025,43,Satara,Clothing,Casual Shirt,Roadster,5,9802.58,0.28,UPI,2.1,35289.29,4815.82
+ORD1019,CUST1003,1/19/2025,56,Kolhapur,Beauty,Face Wash,Nivea,5,10437.37,0,Debit Card,4.7,52186.85,12292.64
+ORD1013,CUST1011,1/13/2025,,Pune,Beauty,Perfume,Dove,1,8622.41,0.01,Credit Card,4.7,8536.19,745.1
+ORD1010,CUST1019,1/10/2025,18,,Grocery,Green Tea,Tata,1,11293.76,0.02,Cash on Delivery,2.6,11067.88,1064
+ORD1025,CUST1030,1/25/2025,59,Satara,Electronics,Bluetooth Speaker,Samsung,5,11404.8,0.19,UPI,4.2,46189.44,3731.15
+ORD1070,CUST1047,3/11/2025,32,Kolhapur,Beauty,Moisturizer,Maybelline,3,878.75,0.07,Cash on Delivery,4.4,2451.71,425.92
+ORD1132,CUST1011,5/12/2025,48,Kolhapur,Beauty,Face Wash,Mamaearth,1,1520.22,0.04,UPI,2.7,1459.41,97.02
+ORD1096,CUST1014,4/6/2025,28,,Beauty,Perfume,Nivea,5,13434.42,0.17,Debit Card,2.1,55752.84,13525.55
+ORD1046,CUST1044,2/15/2025,23,Nagpur,Grocery,Dry Fruits,Aashirvaad,5,7304.68,0.24,,3,27757.78,5404
+ORD1087,CUST1004,3/28/2025,50,,Furniture,Premium Product,Generic,4,9108.64,0.02,Net Banking,2.9,35705.87,8792.11
+ORD1085,CUST1054,3/26/2025,54,Satara,Beauty,Shampoo,Maybelline,3,7825.49,0.14,Debit Card,2.1,20189.76,2168.53
+ORD1127,CUST1024,5/7/2025,18,Pune,Beauty,Lipstick,Mamaearth,4,1752.06,0.15,Cash on Delivery,5,5957,835.63
+ORD1097,CUST1031,4/7/2025,34,Mumbai,Clothing,Hoodie,H&M,5,2105.48,0.26,Cash on Delivery,3.8,7790.28,922.17
+ORD1123,CUST1001,5/3/2025,57,Nagpur,Furniture,Premium Product,Generic,4,650.99,0.29,Net Banking,3.2,1848.81,257.32
+ORD1083,CUST1002,3/24/2025,45,Satara,Beauty,Lipstick,Lakme,1,6292.59,0.2,UPI,3.7,5034.07,762.63
+ORD1110,CUST1047,4/20/2025,46,Pune,Clothing,Casual Shirt,Levi's,1,14796.6,0.13,Cash on Delivery,4.7,12873.04,761.42
+ORD1066,CUST1053,3/7/2025,54,Satara,Grocery,Green Tea,Organic India,4,6998.33,0.29,Cash on Delivery,2.6,19875.26,3809.54
+ORD1052,CUST1051,2/21/2025,45,Nagpur,Grocery,Cooking Oil,Tata,2,9335.5,0.21,UPI,4.1,14750.09,3248.58
+ORD1027,CUST1002,1/27/2025,49,Satara,Beauty,Face Wash,Mamaearth,5,3768.06,0.29,Debit Card,3.8,13376.61,1269.28
+ORD1134,CUST1017,5/14/2025,59,Satara,Grocery,Green Tea,Aashirvaad,3,3651.6,0.25,Debit Card,3.1,8216.1,1486.31
+ORD1077,CUST1014,3/18/2025,19,Nagpur,Electronics,Smart Watch,Noise,2,7009.76,0.16,Credit Card,5,11776.4,892.34
+ORD1057,CUST1018,2/26/2025,44,Pune,Electronics,Wireless Headphones,Samsung,3,1546.83,0.14,UPI,4.1,3990.82,477.15
+ORD1037,CUST1027,2/6/2025,46,Nashik,Furniture,Premium Product,Generic,3,7572.84,0.18,Debit Card,4.8,18629.19,4492.06
+ORD1125,CUST1007,5/5/2025,35,Mumbai,Clothing,Hoodie,Allen Solly,2,5441.37,0.12,,3.9,9576.81,2388.69
+ORD1023,CUST1024,1/23/2025,32,Nagpur,Furniture,Premium Product,Generic,4,8860.21,0.29,Credit Card,2.1,25163,5074.06
+ORD1056,CUST1039,2/25/2025,18,Navi Mumbai,Grocery,Biscuits,Britannia,,8411.27,0.26,Net Banking,4.4,31121.7,6689.18
+ORD1086,CUST1042,3/27/2025,49,Navi Mumbai,Beauty,Moisturizer,Lakme,5,14602.03,0.19,Debit Card,4.1,59138.22,10253.7
+ORD1012,CUST1011,1/12/2025,23,Kolhapur,Beauty,Shampoo,Maybelline,4,12471.63,0.02,Net Banking,2.4,48888.79,4600.3
+ORD1142,CUST1039,5/22/2025,22,Navi Mumbai,Grocery,Basmati Rice,Fortune,5,8454.59,0.13,UPI,3.2,36777.47,4763.38
+ORD1067,CUST1002,3/8/2025,50,Satara,Furniture,Premium Product,Generic,3,12662.95,0.26,UPI,3.6,28111.75,6111.57
+ORD1120,CUST1029,4/30/2025,24,Nashik,Beauty,Shampoo,Dove,4,10370.05,0.2,Cash on Delivery,5,33184.16,4902.25
+ORD1028,CUST1060,1/28/2025,56,,Grocery,General Product,Generic,1,3234.67,0.07,Cash on Delivery,2.7,3008.24,285.07
+ORD1080,CUST1050,3/21/2025,34,Nagpur,Beauty,Shampoo,Mamaearth,4,10525.48,0.22,Cash on Delivery,4.1,32839.5,2697.83
+ORD1145,CUST1028,5/25/2025,26,Pune,Grocery,Cooking Oil,Britannia,5,5805.83,0.04,Cash on Delivery,4.8,27867.98,3674.86
+ORD1042,CUST1016,2/11/2025,39,Kolhapur,Grocery,Basmati Rice,Fortune,,14526.01,0.16,UPI,3.8,24403.7,1644.74
+ORD1005,CUST1043,1/5/2025,52,Nashik,Furniture,Premium Product,Generic,3,6286.58,0.13,Net Banking,3.7,16407.97,1580.65
+ORD1033,CUST1022,2/2/2025,40,Nashik,Electronics,Smart Watch,Sony,2,11403.59,0.19,Net Banking,2.9,18473.82,4165.7
+ORD1135,CUST1008,5/15/2025,52,Nashik,Electronics,Bluetooth Speaker,Sony,1,5275.32,0.21,UPI,2.9,4167.5,436.14
+ORD1144,CUST1041,5/24/2025,49,Nashik,Electronics,Smart Watch,Noise,3,8553.99,0.03,Debit Card,2.7,24892.11,6143.26
+ORD1068,CUST1020,3/9/2025,59,Kolhapur,Furniture,Premium Product,Generic,5,11579.98,0.28,Credit Card,4.6,41687.93,7899.62
+ORD1017,CUST1040,1/17/2025,43,Mumbai,Beauty,Shampoo,Nivea,2,402.35,0.2,UPI,4,643.76,156.96
+ORD1124,CUST1025,5/4/2025,56,Satara,Grocery,Dry Fruits,Tata,4,13034.78,0.34,UPI,3.4,34411.82,3603.79
+ORD1011,CUST1023,1/11/2025,41,Nashik,Beauty,Shampoo,Nivea,3,6016.24,0.29,UPI,2,12814.59,1093.16
+ORD1114,CUST1025,4/24/2025,36,Kolhapur,Furniture,Premium Product,Generic,3,11447.34,0.19,Net Banking,4.6,27817.04,5561.47
+ORD1147,CUST1009,5/27/2025,52,Navi Mumbai,Clothing,Cotton T-Shirt,Puma,3,13514.78,0.32,Credit Card,2.3,27570.15,2646.48
+ORD1102,CUST1023,4/12/2025,,Kolhapur,Beauty,Moisturizer,Lakme,3,10379.21,0.27,Credit Card,3,30307.29,5684.95
+ORD1001,CUST1039,1/1/2025,50,Satara,Furniture,Premium Product,Generic,4,1424.68,0.12,Cash on Delivery,2.8,5014.87,719.54
+ORD1111,CUST1053,4/21/2025,20,Pune,Electronics,Bluetooth Speaker,boAt,1,8141.54,0.16,Credit Card,3.8,6838.89,1534.01
+ORD1065,CUST1026,3/6/2025,26,Pune,Electronics,Bluetooth Speaker,HP,4,11987.78,0.27,Credit Card,3.3,35004.32,7822.02
+ORD1045,CUST1051,2/14/2025,59,Kolhapur,Grocery,Basmati Rice,Britannia,,8931.35,0.07,UPI,3.8,8306.16,846.82
+ORD1098,CUST1048,4/8/2025,55,Nashik,Electronics,Bluetooth Speaker,HP,5,5085.47,0.2,Cash on Delivery,2.7,20341.88,3590.84
+ORD1029,CUST1021,1/29/2025,49,Kolhapur,Furniture,Premium Product,Generic,5,3921.35,0.34,,3.2,12940.45,2036.76
+ORD1041,CUST1060,2/10/2025,24,Kolhapur,Electronics,Wireless Headphones,Sony,1,12282.51,0.13,,2.8,10685.78,1711.56
+ORD1105,CUST1040,4/15/2025,33,Navi Mumbai,Beauty,Shampoo,Dove,3,5783.83,0.25,Debit Card,2.9,13013.62,2493.86
+ORD1026,CUST1038,1/26/2025,30,Pune,Clothing,Kurti,Puma,4,5792.19,0.17,Debit Card,2.2,125000,4099.21
+ORD1024,CUST1044,1/24/2025,43,Satara,Clothing,Hoodie,H&M,3,10946.59,0.25,Debit Card,2.5,24629.83,4660.07
+ORD1109,CUST1018,4/19/2025,33,Mumbai,Furniture,Premium Product,Generic,2,9039.72,0.19,,3.9,14644.35,2550.8
+ORD1040,CUST1028,2/9/2025,49,Navi Mumbai,Furniture,Premium Product,Generic,4,4755.1,0.21,Credit Card,2.1,15026.12,2720.45
+ORD1035,CUST1025,2/4/2025,32,Pune,Grocery,Dry Fruits,Fortune,3,4176.35,0.27,UPI,3.4,9146.21,694.22
+ORD1099,CUST1015,4/9/2025,41,Kolhapur,Electronics,Smartphone,Noise,5,4959.42,0.35,Net Banking,2.4,16118.12,3810.41
+ORD1013,CUST1011,1/13/2025,31,Pune,Beauty,Perfume,Lakme,1,8622.41,0.01,Credit Card,4.7,8536.19,745.1
+ORD1137,CUST1035,5/17/2025,33,Navi Mumbai,Electronics,Bluetooth Speaker,Sony,1,5455.54,0.32,Debit Card,2.7,3709.77,297.57
+ORD1048,CUST1052,2/17/2025,45,Kolhapur,Clothing,Denim Jeans,Roadster,2,11813.09,0.05,Cash on Delivery,2.3,22444.87,1486.06
+ORD1112,CUST1024,4/22/2025,37,Pune,Furniture,Premium Product,Generic,1,13875.82,0.21,Credit Card,2.7,10961.9,2682.35
+ORD1062,CUST1050,3/3/2025,23,Satara,Furniture,Premium Product,Generic,1,4609.8,0.32,UPI,4.8,3134.66,656.66
+ORD1074,CUST1008,3/15/2025,58,Satara,Furniture,Premium Product,Generic,3,8778.82,0.11,Credit Card,2.7,23439.45,5259.08
+ORD1034,CUST1044,2/3/2025,56,Pune,Beauty,Perfume,Maybelline,5,894.07,0.25,UPI,3.7,3352.76,345.74
+ORD1149,CUST1012,5/29/2025,33,Nagpur,Electronics,Smartphone,Sony,1,3816.43,0.08,Net Banking,4.6,3511.12,197.42
+ORD1126,CUST1009,5/6/2025,57,Navi Mumbai,Grocery,Basmati Rice,Tata,2,6078.02,0.08,Net Banking,4.6,11183.56,1512.42
+ORD1063,CUST1058,3/4/2025,25,Nashik,Grocery,Green Tea,Aashirvaad,,7949.31,0.25,Debit Card,2.4,29809.91,5416.17
+ORD1106,CUST1021,4/16/2025,,Nashik,Furniture,Premium Product,Generic,3,238.41,0.17,Net Banking,3.6,593.64,37.68
+ORD1095,CUST1036,4/5/2025,21,Navi Mumbai,Grocery,Dry Fruits,Aashirvaad,4,5468.67,0.31,Debit Card,4.5,15093.53,2388.6
+ORD1054,CUST1021,2/23/2025,56,Pune,Grocery,Basmati Rice,Aashirvaad,5,9199.7,0.04,Debit Card,2.7,44158.56,6452.33
+ORD1006,CUST1008,1/6/2025,57,Pune,Clothing,Casual Shirt,Roadster,1,85000,0.17,UPI,2.8,9718.06,2318.21
+ORD1128,CUST1001,5/8/2025,28,Satara,Electronics,Wireless Headphones,HP,2,11113.6,0.1,Debit Card,4.3,20004.48,1654.87
+ORD1115,CUST1060,4/25/2025,43,Navi Mumbai,Furniture,Premium Product,Generic,,8062.73,0.17,Cash on Delivery,2.1,6692.07,508.71
+ORD1050,CUST1003,2/19/2025,,Nashik,Furniture,Premium Product,Generic,2,12114.66,0.04,UPI,4.2,23260.15,4341.55
+ORD1036,CUST1049,2/5/2025,60,Satara,Electronics,Laptop,HP,5,8108.895,0.03,Net Banking,4,2562.4,583.59
+ORD1081,CUST1040,3/22/2025,19,Navi Mumbai,Furniture,Premium Product,Generic,4,2865,0.19,Credit Card,4.8,9282.6,1982.7
+ORD1078,CUST1017,3/19/2025,,Pune,Grocery,Green Tea,Aashirvaad,4,8854.54,0.25,Cash on Delivery,4.8,26563.62,3108.57
+ORD1035,CUST1025,2/4/2025,32,Pune,Grocery,Cooking Oil,Organic India,3,4176.35,0.27,UPI,3.4,9146.21,694.22
+ORD1047,CUST1055,2/16/2025,45,Nashik,Grocery,Cooking Oil,Tata,5,6423.93,0.03,Cash on Delivery,4.3,31156.06,4647.71
+ORD1008,CUST1039,1/8/2025,44,,Grocery,Green Tea,Aashirvaad,4,14782.23,0.03,UPI,4,57355.05,9839.11
+ORD1044,CUST1047,2/13/2025,19,Kolhapur,Electronics,Laptop,boAt,4,11918.9,0.19,Cash on Delivery,3.5,38617.24,4809.3
+ORD1071,CUST1060,3/12/2025,49,Nagpur,Furniture,Premium Product,Generic,2,9387.92,0.08,UPI,4,17273.77,3464.14
+ORD1113,CUST1026,4/23/2025,53,Nashik,Grocery,Biscuits,Aashirvaad,5,3694.52,0.18,UPI,2.1,15147.53,3692.6
+ORD1092,CUST1044,4/2/2025,49,Mumbai,Grocery,Green Tea,Organic India,1,670.71,0.26,UPI,4.6,496.33,102.23
+ORD1084,CUST1006,3/25/2025,40,Pune,Clothing,Cotton T-Shirt,Levi's,1,13139.9,0.12,UPI,4.7,11563.11,592.92
+ORD1140,CUST1005,5/20/2025,18,Mumbai,Furniture,Premium Product,Generic,5,8846.15,0.23,Credit Card,5,34057.68,4561.87
+ORD1141,CUST1042,5/21/2025,41,Navi Mumbai,Electronics,Smart Watch,Noise,4,11104.97,0.27,Net Banking,3.3,32426.51,5762.36
+ORD1090,CUST1018,3/31/2025,19,Pune,Electronics,Laptop,Sony,1,5307.22,0.15,Debit Card,4.8,4511.14,2559.305
+ORD1009,CUST1058,1/9/2025,52,Satara,Electronics,Laptop,HP,5,5775.74,0.28,Credit Card,4.5,20792.66,3171.66
+ORD1014,CUST1024,1/14/2025,20,Nashik,Grocery,Basmati Rice,Fortune,4,1139.98,0.24,UPI,4.6,3465.54,713.61
+ORD1060,CUST1060,3/1/2025,20,Nagpur,Beauty,Moisturizer,Nivea,4,6873.47,0.07,Debit Card,3.1,25569.31,2644.01
+ORD1133,CUST1051,5/13/2025,47,Kolhapur,Furniture,Premium Product,Generic,4,8122.97,0.09,Credit Card,2.3,29567.61,5502.53
+ORD1004,CUST1015,1/4/2025,54,Satara,Beauty,Shampoo,Dove,3,2639.55,0.08,Debit Card,2.4,7285.16,1808.42
+ORD1018,CUST1024,1/18/2025,31,Kolhapur,Clothing,Hoodie,H&M,5,1315.31,0.32,Credit Card,2.5,4472.05,1014.07
+ORD1039,CUST1042,2/8/2025,30,Kolhapur,Electronics,Bluetooth Speaker,Samsung,2,12504.3,0.11,Cash on Delivery,2.6,22257.65,4716.47
+ORD1073,CUST1044,3/14/2025,41,Nashik,Furniture,Premium Product,Generic,3,3295.14,0.32,Debit Card,4.5,6722.09,1520.36
+ORD1136,CUST1035,5/16/2025,24,Navi Mumbai,Clothing,Hoodie,Roadster,1,7214.76,0.04,,2.9,6926.17,1663.48
+ORD1007,CUST1021,1/7/2025,39,Satara,Beauty,Perfume,Nivea,4,7309.48,0.3,Net Banking,3.7,20466.54,3682.53
+ORD1129,CUST1044,5/9/2025,45,Nagpur,Grocery,Cooking Oil,Britannia,4,2897.8,0.22,Cash on Delivery,3.3,9041.14,1889.25
+ORD1101,CUST1014,4/11/2025,51,Navi Mumbai,Clothing,Hoodie,Roadster,3,7320.95,0.25,Credit Card,4.1,16472.14,3911.24
+ORD1003,CUST1029,1/3/2025,41,Pune,Electronics,Smartphone,Sony,5,8363.5,0,UPI,4.7,41817.5,3487.86
+ORD1121,CUST1015,5/1/2025,58,Mumbai,Furniture,Premium Product,Generic,30,12697.72,0.25,Cash on Delivery,3.1,47616.45,9717.64
+ORD1064,CUST1009,3/5/2025,44,Pune,Beauty,Moisturizer,Dove,4,10525.1,0.02,Credit Card,3.55,41258.39,9081.65
+ORD1116,CUST1060,4/26/2025,20,Kolhapur,Furniture,Premium Product,Generic,3,10863.64,0.14,Debit Card,4.6,28028.19,5651.96
+ORD1055,CUST1009,2/24/2025,50,Satara,Beauty,Shampoo,Nivea,5,9622.34,0.3,Debit Card,4.5,33678.19,5674.15
+ORD1108,CUST1045,4/18/2025,23,Mumbai,Clothing,Kurti,Puma,1,1450.85,0.04,Cash on Delivery,3,1392.82,165.99
+ORD1051,CUST1037,2/20/2025,28,Mumbai,Clothing,Cotton T-Shirt,Puma,3,13566.64,0.17,UPI,3.5,33780.93,2203.4
+ORD1068,CUST1020,3/9/2025,59,Kolhapur,Furniture,Premium Product,Generic,5,11579.98,0.28,Credit Card,4.6,41687.93,7899.62
+ORD1059,CUST1025,2/28/2025,58,Satara,Grocery,Biscuits,Fortune,1,8302.21,0.35,Net Banking,3.8,5396.44,880.41
+ORD1049,CUST1057,2/18/2025,37,Nashik,Beauty,Face Wash,Mamaearth,1,9662.55,0,Net Banking,2.2,9662.55,908.63
+ORD1089,CUST1029,3/30/2025,36,Navi Mumbai,Beauty,Perfume,Lakme,4,12362.5,0.19,Net Banking,4.9,40054.5,4083.99
+ORD1022,CUST1002,1/22/2025,32,Nashik,Beauty,Face Wash,Maybelline,1,13714.85,0.25,Debit Card,3.6,10286.14,1329.47
+ORD1058,CUST1004,2/27/2025,30,Nagpur,Beauty,Shampoo,Dove,5,10950.68,0.33,Net Banking,2.8,36684.78,6808.81
+ORD1150,CUST1034,5/30/2025,20,Kolhapur,Electronics,Laptop,Samsung,2,7574.07,0.06,Credit Card,4.8,14239.25,2567.81
+ORD1130,CUST1008,5/10/2025,42,Satara,Grocery,Dry Fruits,Britannia,4,8546.68,0.32,Credit Card,3.3,23246.97,4387.55
+ORD1038,CUST1059,2/7/2025,53,Nashik,Furniture,Premium Product,Generic,3,7247.92,0.33,Credit Card,4.2,14568.32,3240.37
+ORD1146,CUST1007,5/26/2025,58,Mumbai,Electronics,Laptop,Samsung,,5194.21,0.29,Credit Card,4.4,7375.78,1687.72
+ORD1002,CUST1052,1/2/2025,40,Kolhapur,Furniture,Premium Product,Generic,1,13174.59,0.33,UPI,2.1,8826.98,1524.26
+ORD1053,CUST1007,2/22/2025,42,Kolhapur,Electronics,Bluetooth Speaker,Noise,2,14710.85,0.28,Debit Card,3.3,21183.62,3156.98
+ORD1131,CUST1024,5/11/2025,40,Pune,Grocery,General Product,Generic,5,12642.51,0.05,Cash on Delivery,4.2,60051.92,5654.12
+ORD1104,CUST1057,4/14/2025,28,Mumbai,Grocery,Dry Fruits,Fortune,4,2523.27,0.07,Net Banking,2.2,9386.56,1034.33
+ORD1100,CUST1008,4/10/2025,22,Mumbai,Furniture,Premium Product,Generic,5,1565.9,0.26,Net Banking,2.2,5793.83,408.48
+ORD1117,CUST1060,4/27/2025,36,Mumbai,Furniture,Premium Product,Generic,4,1122.65,0.27,Credit Card,3.6,3278.14,180.03
+ORD1088,CUST1054,3/29/2025,18,Nagpur,Clothing,Denim Jeans,Allen Solly,1,3512.97,0.08,UPI,4.8,3231.93,569.99
+ORD1075,CUST1047,3/16/2025,29,Pune,Clothing,Kurti,Puma,5,5255.14,0.21,Credit Card,3.5,16026.04,1159.31
+ORD1122,CUST1045,5/2/2025,50,Pune,Grocery,Green Tea,Fortune,2,11294.32,0.21,Net Banking,4.3,17845.03,3330.94
+ORD1121,CUST1015,5/1/2025,58,Mumbai,Furniture,Premium Product,Generic,30,12697.72,0.25,Cash on Delivery,3.1,47616.45,9717.64
+ORD1021,CUST1053,1/21/2025,26,Kolhapur,Furniture,Premium Product,Generic,,11298.68,0.17,Credit Card,3.1,37511.62,3180.2
+ORD1072,CUST1007,3/13/2025,49,Kolhapur,Beauty,Lipstick,Mamaearth,2,5341.72,0.22,Net Banking,4.1,8333.08,680.99
+ORD1107,CUST1016,4/17/2025,26,Mumbai,Grocery,Green Tea,Tata,4,13050.86,0.26,Debit Card,4.4,38630.55,6429.44
+ORD1015,CUST1053,1/15/2025,18,Pune,Beauty,Lipstick,Dove,4,744.96,0.35,Debit Card,3.8,1936.9,232.48
+ORD1093,CUST1034,4/3/2025,23,Pune,Clothing,Cotton T-Shirt,Allen Solly,5,8320.99,0.24,Cash on Delivery,4.5,31619.76,2257.53
+ORD1103,CUST1060,4/13/2025,39,Navi Mumbai,Grocery,Basmati Rice,Britannia,5,7772.52,0.05,UPI,4.2,36919.47,2346.88
